@@ -1,0 +1,9 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: 88px auto 0px auto;
+  color: white;
+}
+.footer__name {
+  margin: 0 auto 24px;
+}
