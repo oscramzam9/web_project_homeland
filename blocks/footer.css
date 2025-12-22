@@ -1,9 +1,25 @@
 .footer {
   display: flex;
   flex-direction: column;
-  margin: 88px auto 0px auto;
+  margin: 92px auto 0px auto;
   color: white;
 }
 .footer__name {
   margin: 0 auto 24px;
+  width: 194px;
+  font-size: 14px;
+  height: 16px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    margin-top: 89px;
+  }
+}
+
+@media (max-width: 544px) {
+  .footer {
+    margin-top: 64px;
+  }
 }
