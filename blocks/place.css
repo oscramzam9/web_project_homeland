@@ -73,6 +73,7 @@
 .place__image {
   width: 100%;
   max-width: 450px;
+  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
 }
 
 .place__image:hover {
